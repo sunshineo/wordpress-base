@@ -1,8 +1,5 @@
 FROM tutum/wordpress-stackable:latest
 
-RUN sudo rm -Rf /app/wp-content/plugins/akismet
-RUN sudo rm /app/wp-content/plugins/hello.php
-
 # Plugins download is done outside of docker build for now due to
 # https://github.com/docker/docker/issues/13117
 # This also means I cannot automatically build this project on docker hub
@@ -11,6 +8,8 @@ ADD plugins/ /app/wp-content/plugins/
 
 # Currently no themes yet
 # WORKDIR /app/wp-content/plugins
+# RUN sudo rm -Rf akismet
+# RUN sudo rm hello.php
 
 # The base does not have unzip unfortunately
 # RUN sudo apt-get update

@@ -1,8 +1,8 @@
-https://downloads.wordpress.org/plugin/add-meta-tags.2.8.3.zip
-https://downloads.wordpress.org/plugin/addthis.4.0.7.zip
-https://downloads.wordpress.org/plugin/amazon-web-services.0.2.2.zip
-https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.0.8.2.zip
+https://downloads.wordpress.org/plugin/add-meta-tags.2.9.4.zip
+https://downloads.wordpress.org/plugin/addthis.5.1.2.zip
+https://downloads.wordpress.org/plugin/amazon-web-services.0.3.2.zip
+https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.0.9.6.zip
 https://downloads.wordpress.org/plugin/anti-spam.3.5.zip
 https://downloads.wordpress.org/plugin/crayon-syntax-highlighter.zip
-https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.2.zip
-https://downloads.wordpress.org/plugin/wordpress-seo.2.1.1.zip
+https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.6.zip
+https://downloads.wordpress.org/plugin/wordpress-seo.2.3.5.zip

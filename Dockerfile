@@ -13,8 +13,8 @@ RUN sudo apt-get install -qq unzip
 WORKDIR /app/wp-content
 
 # Remove default plugins
-RUN sudo rm -Rf ./plugins/akismet
-RUN sudo rm ./plugins/hello.php
+RUN sudo rm -Rf ./plugins/akismet; exit 0
+RUN sudo rm ./plugins/hello.php; exit 0
 
 # Think of the below as: npm install bower
 # https://github.com/sunshineo/wppatm

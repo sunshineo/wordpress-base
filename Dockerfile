@@ -3,7 +3,7 @@
 # Try to config Wordpress use a different location for wp-content also failed
 # https://wordpress.org/support/topic/cannot-properly-configure-wp_content_url
 # https://github.com/tutumcloud/tutum-docker-wordpress-nosql/issues/23
-FROM sunshineo/tutum-docker-wordpress-nosql:latest
+FROM sunshineo/tutum-docker-wordpress-nosql:4.5.2
 
 # The base does not have unzip unfortunately
 RUN sudo apt-get update
